@@ -1,8 +1,8 @@
-# Policy-Gradient-Classics-pytorch
+# Multi-agent RL using DDPG
 
 This repository is an implementation of the reinforcement learning algorithm DDPG as described by [Lillicrap et. al](https://arxiv.org/abs/1509.02971), with multiple instantiations of the DDPG agent to tackle basic multi-agent RL problems. 
 
-#### Unity [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment:
+#### Unity [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment:
 
 This the third project of the Udacity deep RL nanodegree and it aims to solve a version of the Unity Tennis environment, by achieving a score of >0.5 over 100 consecutive episodes, taking the max score achieved by either of the two agents.
 
@@ -29,5 +29,5 @@ The file tennis_2ddpg.py is the main python file used to load the environment, i
 Weight files are also included for a fully trained agent.
 Here are the average scores over training episodes:
 
-![Training curve](https://raw.githubusercontent.com/hummosa/Policy-Gradient-Classics-pytorch/master/DDPG_training_scores.png)
+![Training curve](https://raw.githubusercontent.com/hummosa/Multi-DDPG-RL/master/WBscores.png)
 
